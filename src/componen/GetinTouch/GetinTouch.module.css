@@ -1,0 +1,163 @@
+.GetinTouch{
+    width: 80%;
+    margin: auto;
+}
+
+.GetinTouchtitle{
+    text-align: center;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #FF64AE;
+margin: 0;
+padding-top: 9%;
+padding-bottom: 2%;
+}
+
+.Getintitle{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+
+text-align: center;
+
+color: #091156;
+padding-bottom: 2.5%;
+
+}
+
+.GetinTouch p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+}
+
+
+.Getin{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8%;
+    flex-wrap: wrap;
+}
+
+.GetinPhone{
+    text-align: center;
+    width: 30%;
+    background: #FFFFFF;
+box-shadow: 0px 25px 50px 25px #F7F7FF;
+border-radius: 42px;
+margin-bottom: 5%;
+}
+
+.GetinAddress{
+    text-align: center;
+    width: 30%;
+}
+
+.GetinPhone img{
+    width: 65px;
+    height: 65px;
+    padding-top: 15%;
+    padding-bottom: 8%;
+}
+
+.GetinAddress img{
+    width: 65px;
+    height: 65px;
+    padding-top: 15%;
+    padding-bottom: 8%;
+
+}
+
+
+.GetinPhone h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+
+margin: 0;
+color: #FF64AE;
+padding-bottom: 5%;
+}
+
+.GetinAddress h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+padding-bottom: 5%;
+
+margin: 0;
+color: #FF64AE;
+}
+
+
+.GetinPhone h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color: #091156;
+margin: 0;
+padding-bottom: 3%;
+
+
+}
+
+.GetinAddress h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #091156;
+    margin: 0;
+    padding-bottom: 3%;
+
+}
+
+.GetinPhone p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+padding-bottom: 15%;
+}
+
+.GetinAddress p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+padding-bottom: 15%;
+}
+
+@media (max-width:1200px){
+    .Getin{
+        flex-direction: column;
+    }
+
+    .GetinPhone{
+        width: 100%;
+    }
+
+    .GetinAddress{
+        width: 100%;
+    }
+}

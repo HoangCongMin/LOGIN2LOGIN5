@@ -1,0 +1,166 @@
+.Contactnewtitle{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #FF64AE;
+margin: 0;
+padding-bottom: 2%;
+}
+
+
+.Bubble2{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+  
+   
+}
+
+.Contactnew{
+    padding-top: 250px;
+    width: 80%;
+    margin: auto;
+}
+
+.Contactnewconten{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Contactnewconten h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 125%;
+color: #091156;
+}
+
+.Contactnewconten p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+}
+
+
+
+
+
+
+
+.ContactForm{
+    width: 45%;
+}
+
+.ContactUsitem{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 6%;
+}
+
+
+
+
+.Rectangle2 {
+    border-radius: 15px;
+    border: 1px solid #D9DDFE;
+    outline: none;
+    
+    margin-bottom: 8%;
+    padding: 4%;
+    width: 91%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+color: #C5C5C5;
+}
+
+.Rectangle1 {
+    border-radius: 15px;
+    padding: 4%;
+    border: 1px solid #D9DDFE;
+    width: 38%;
+    margin-bottom: 20px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+color: #C5C5C5;
+}
+
+.NameInput {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    
+}
+
+.Rectangle3 {
+    height: 150px;
+    border-radius: 15px;
+    border: 1px solid #D9DDFE;
+    width: 89%;
+    height: 239.47px;
+    padding: 5%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #C5C5C5;
+
+}
+
+.SendMessage {
+    margin-top: 54px;
+    width: 50%;
+}
+
+
+.ContactAnimations{
+    width: 50%;
+}
+
+.map{
+    padding-top: 10%;
+    width: 100%;
+}
+
+
+@media (max-width:1138px) {
+    .ContactAnimations {
+        display: none;
+    }
+
+    .ContactForm{
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width:1054px) {
+    .Contactnewconten{
+        flex-direction: column;
+    }
+
+    .Contactnewconten p{
+        padding-top: 3%;
+    }
+}

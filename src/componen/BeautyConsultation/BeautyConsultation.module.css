@@ -1,0 +1,126 @@
+.BeautyConsultation{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12%;
+}
+
+.BeautyConsultationmid{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12%;
+}
+
+.BeautyConsultation img {
+    width: 41%;
+}
+
+.BeautyConsultationmid img{
+    width: 41%;
+}
+
+.BeautyConsultation div{
+    width: 42%;
+}
+
+.BeautyConsultationmid div{
+    width: 42%;
+}
+
+.BeautyConsultationtwo h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #FF64AE;
+margin-bottom: 2%;
+
+}
+
+.BeautyConsultationtwo h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    color: #091156;
+    padding-bottom: 3%;
+}
+
+.BeautyConsultationtwo P {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+color: #8B8B8B;
+}
+
+.BeautyConsultationtwo .BeautyConsultationthree{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.BeautyConsultationthree h5{
+   
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+margin: 0;
+
+color: #091156;
+
+}
+
+.BeautyConsultationthree span{
+    
+    color: #FF64AE;
+    display: flex;
+    align-items: center;
+    
+}
+
+.BeautyConsultationthree span svg{
+ font-size: 22px;
+}
+
+
+.BeautyConsultationthree{
+    padding-top: 4%;
+}
+
+@media (max-width:1200px) {
+    .BeautyConsultation img {
+       display: none;
+    }
+    .BeautyConsultationmid div{
+        display: none;
+    }
+    .BeautyConsultationmid img{
+        margin: auto;
+        width: 70%;
+    }
+
+    .BeautyConsultation div{
+        width: 100%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+

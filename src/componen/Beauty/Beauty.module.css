@@ -1,0 +1,418 @@
+.Beauty{
+    width: 80%;
+    margin: auto;
+    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.Beautyone{
+    width: 63.4%;
+
+}
+
+.Beautyonenumberone {
+    box-shadow: 10px 13px 80px 14px #F2F4FF;
+    border-radius: 50px 50px 50px 50px;
+    padding-bottom: 13%;
+    margin-top: 17%;
+}
+
+.Beautyone div .Beautyimg {
+    width: 100%;
+    
+}
+
+.Beautyonenumber{
+    width: 85%;
+    margin: auto;
+}
+
+.BeautyConsultation{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top: 8%;
+}
+
+.BeautyConsultation h5 {
+    margin: 0;
+    padding-left: 3%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #FF64AE;
+}
+
+
+.Beautyonenumber h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 125%;
+color: #091156;
+padding-top: 2.5%;
+}
+
+
+.Beautyonenumber p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 0.1em;
+color: #8B8B8B;
+padding-top: 3%;
+}
+
+.Beautyonenumber .BeautyRead{
+    background: #FF64AE;
+box-shadow: 0px 17px 22px #FFEDF6;
+border-radius: 50px;
+margin-top: 6%;
+display: flex;
+align-items: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+justify-content: center;
+width: 200px;
+
+}
+
+.BeautyRead svg{
+    height: 35%;
+    padding-left: 1.5%;
+}
+
+@media (max-width:800px){
+    .Beautyonenumber h1{
+       
+    font-size: 24px;
+    
+    }
+
+    .Beautyonenumber .BeautyRead{
+        width: 160px;
+    }
+}
+
+
+@media (max-width:1267px){
+    .Beautyone{
+        width: 100%;
+    }
+
+    .Beautytow{
+        margin: auto;
+    }
+}
+
+
+
+
+
+.Beautytow{
+    width: 350px;
+    margin-top: 11%;
+}
+
+.Beautyinput{
+    
+    width: 75%;
+    border-radius: 50px 0px 0px 50px;
+
+    box-shadow: -2px 4px 31px 9px #F2F4FF;
+    padding: 5%;
+    border: none;
+    color: #8B8B8B;
+    outline: none;
+}
+
+
+
+.Beautytowinput{
+    display: flex;
+    align-items: center;
+}
+
+.FaSearch {
+    width: 11%;
+    color: #FFFFFF;
+    background-color: #091156;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    
+    box-shadow: 10px 13px 80px 14px #F2F4FF;
+    font-size: 150%;
+    padding-left: 4%;
+    padding-top: 3.5%;
+    padding-bottom: 3%;
+    
+    
+    }
+
+
+.RecentPosts{
+    width: 100%;
+    box-shadow: 10px 13px 80px 14px #F2F4FF;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 25%;
+}
+
+.RecentPostsone{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 9%;
+}
+
+.RecentPostsone h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #091156;
+padding-top: 17%;
+padding-bottom: 11%;
+margin: 0;
+}
+
+.Recentstyleimg{
+    width: 82px;
+    height: 82px;
+}
+
+.Recentstyle{
+    display: flex;
+    align-items: center;
+    padding-bottom: 11%;
+}
+
+.Recenttile h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #FF64AE;
+    margin: 0%;
+}
+
+.Recenttile p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+
+}
+
+.Recenttile{
+    padding-left: 8%;
+}
+
+
+.Categories{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 11%;
+}
+
+.Categoriesall{
+    width: 100%;
+    box-shadow: 10px 13px 80px 14px #F2F4FF;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #FFFFFF;
+    margin-top: 22%;
+}
+
+.Categories h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+
+
+margin: 0;
+color: #091156;
+padding-top: 19%;
+padding-bottom: 5%;
+
+}
+
+.Categories p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+padding-bottom: 2%;
+
+}
+
+
+.CloudTags{
+    width: 100%;
+    box-shadow: 10px 13px 80px 14px #F2F4FF;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #FFFFFF;
+}
+
+.CloudTagsone{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 16%;
+    margin-top: 22%;
+}
+
+.CloudTags h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 125%;
+margin: 0;
+padding-top: 19%;
+padding-bottom: 6%;
+
+color: #091156;
+
+}
+
+.CloudTagsall{
+    display: flex;
+}
+
+.CloudTagsall p{
+    width: 82px;
+    height: 26px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+background: #FFFFFF;
+box-shadow: 0px 4px 17px #EEF0FF;
+border-radius: 50px;
+text-align: center;
+letter-spacing: 0.1em;
+margin-top: 3%;
+margin-right: 2%;
+margin-bottom: 2%;
+
+color: #8B8B8B;
+
+}
+
+
+.SocialConnect{
+    width: 100%;
+    box-shadow: 10px 13px 80px 14px #F2F4FF;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #FFFFFF;
+    margin-top: 24%;
+    padding-bottom: 16%;
+}
+
+.Connect{
+    width: 80%;
+    margin: auto;
+}
+
+.Connectlogo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    }
+
+ .Connectlogo img{
+    width: 59px;
+    height: 59px;
+ }   
+
+
+
+
+
+.Connect h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+margin: 0;
+padding-top: 19%;
+color: #091156;
+padding-bottom: 10%;
+}
+
+.slice{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8%;
+
+    }
+
+
+ .sliceall{
+    display: flex;
+    
+ }   
+
+ .sliceall p{
+    margin: 16px;
+ }
+
+
+.sliceone{
+    background-color: #091156;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 125%;
+/* identical to box height, or 20px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.slicetow{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 125%;
+/* identical to box height, or 20px */
+
+text-align: center;
+
+color: #C7C7C7;
+}
+

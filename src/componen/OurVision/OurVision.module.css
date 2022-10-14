@@ -1,0 +1,109 @@
+    .OurVision {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 6%;
+    }
+    
+    /* .Vision {
+        background-image: url(../../aces/Img/Bubble\ BGFooter.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+    .backgrondour{
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        width: 100%;
+    }
+    
+    .OurVisionh5 {
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        
+        /* identical to box height, or 20px */
+        color: #FF64AE;
+        margin: 0;
+    }
+    
+    .OurVision h1 {
+       
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        /* or 45px */
+        color: #091156;
+        padding-top: 1%;
+    }
+    
+    .OurVision p {
+        
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        color: #8B8B8B;
+        margin-top: 24px;
+    }
+    
+    .OurVision img {
+        width: 373px;
+        height: 243px;
+    }
+    
+    .Clients {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+        width: 80%;
+    margin: auto;
+    }
+    
+    .Clients h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        /* or 45px */
+        text-align: center;
+        color: #091156;
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+    
+    .Clients p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #8B8B8B;
+    }
+    
+    .LOGO {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 5%;
+        width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 7%;
+    }
+    
+    .LOGO img {
+       
+    }

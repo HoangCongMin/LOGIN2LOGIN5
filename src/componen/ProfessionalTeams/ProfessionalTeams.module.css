@@ -1,0 +1,209 @@
+.Professional {
+   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    
+    /* identical to box height, or 20px */
+    text-align: center;
+    color: #FF64AE;
+}
+
+.TheProfessionalexpert {
+    
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 0.5%;
+    /* or 45px */
+    text-align: center;
+    color: #091156;
+}
+
+.Loremipsumdolor {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+    margin-top: 1%;
+    
+}
+
+.ProfessionalTeams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:6%;
+    width: 80%;
+    margin: auto;
+}
+
+.Section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 6%;
+    flex-wrap: wrap;
+}
+
+.unsplash {
+    padding-top: 25%;
+}
+
+.BoxSection {
+    text-align: center;
+    border-radius: 42px;
+    width: 370px;
+}
+
+.BoxSectionMid {
+    box-shadow: 0px 25px 50px 10px #F7F7FF;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 42px;
+    width: 370px;
+}
+
+
+
+/* .BoxSection:hover {
+    box-shadow: 0px 25px 50px 25px #F7F7FF;
+} */
+
+.BoxSection h6 {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    
+    /* identical to box height, or 20px */
+    text-align: center;
+    color: #FF64AE;
+    margin-bottom: 0;
+}
+
+.BoxSectionMid h6 {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    
+    /* identical to box height, or 20px */
+    text-align: center;
+    color: #FF64AE;
+    margin-bottom: 0;
+}
+
+.BoxSection h5 {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+   
+    /* or 22px */
+    text-align: center;
+    color: #091156;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+.BoxSectionMid h5 {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+   
+    /* or 22px */
+    text-align: center;
+    color: #091156;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+.BoxSection p {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+}
+
+.BoxSectionMid p {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+}
+
+.icon {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 20%;
+}
+
+.icon img {
+    
+}
+
+@media (max-width:919px) {
+    .BoxSection {
+       margin: auto;
+    }
+}
+
+@media (max-width:1141px) {
+    .BoxSection {
+       margin: auto;
+       width: 100%;
+    }
+    .Section{
+        display: flex;
+        flex-direction: column;
+    }
+    .BoxSectionMid{
+        margin: auto;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:1387px) {
+    .BoxSection {
+       margin: auto;
+       width: 100%;
+    }
+    .Section{
+        display: flex;
+        flex-direction: column;
+    }
+    .BoxSectionMid{
+        margin: auto;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+
+}

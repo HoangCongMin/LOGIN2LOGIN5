@@ -1,0 +1,287 @@
+.MainServices {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    
+    /* identical to box height, or 20px */
+    color: #FF64AE;
+}
+
+
+
+
+.backgroundimg{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 190%;
+    background-repeat: no-repeat;
+}
+
+.Learnservices {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 1%;
+    /* or 45px */
+    text-align: center;
+    color: #091156;
+}
+
+.Porta {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+}
+
+.CoreServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 115px;
+}
+
+.Beauty {
+    width: 263px;
+    height: 37px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    /* or 22px */
+    text-align: center;
+    color: #091156;
+}
+
+.Nonparturient {
+    width: 274px;
+    height: 80px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+}
+
+.BoxBacground {
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px 25px #F7F7FF;
+    border-radius: 42px;
+
+}
+
+.BoxBacground:hover {
+    box-shadow:0px 25px 50px 25px #eaedff;
+    transition: all 0.4s ease;
+}
+.BoxSection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    position: absolute;
+    left: 10%;
+
+}
+
+.Ellipse {
+    width: 166px;
+    height: 166px;
+    padding: 59px 88px;
+}
+
+.Beauty {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 6px;
+}
+
+.Nonparturient {
+    padding-left: 34px;
+    padding-right: 35px;
+    padding-bottom: 52px;
+}
+
+.About {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* identical to box height, or 20px */
+    color: #FF64AE;
+    padding-bottom: 1%;
+}
+
+.bestbeautyclinic {
+    padding-bottom: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    color: #091156;
+}
+
+.Loremipsum {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 4%;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+}
+
+.ButtonBG {
+    width: 200px;
+    height: 58.36px;
+}
+
+.WatchVideo {
+   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+    margin-left: 10px;
+}
+
+.Play {
+    width: 49px;
+    height: 49px;
+    padding-left: 44px;
+}
+
+.MoreDetailsButton {
+    display: flex;
+    align-items: center;
+}
+
+.AboutUs {
+    display: flex;
+    justify-content: center;
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 19%;
+    padding-top: 30%;
+}
+
+.AboutUsone{
+    width: 60%;
+}
+
+.AboutUstow{
+    width: 40%;
+}
+
+.Animation4 {
+    width: 100%;
+    padding-top: 8%;
+    height: 89%;
+}
+
+.Play{
+    width: 61px;
+    height: 61px;
+}
+
+@media (max-width:1286px) {
+    .Animation4 {
+        display: none;
+    }
+    .AboutUstow{
+        display: none;
+    }
+    .AboutUsone{
+        width: 100%;
+        margin: auto;
+    }
+    .AboutUs{
+        padding-top: 56rem;
+    }
+    .BoxBacground{
+        margin-bottom: 5%;
+        margin: auto;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width:857px) {
+    .Porta {
+        
+    }
+
+    .AboutUs{
+        padding-top: 87rem;
+    }
+
+    .BoxBacground{
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .Learnservices {
+       
+    }
+    .bestbeautyclinic {
+        
+    }
+}
+
+@media (max-width:400px) {
+    .Porta {
+        /* width: 300px; */
+    }
+    .Learnservices {
+        /* width: 300px; */
+    }
+    .bestbeautyclinic {
+        /* width: 300px; */
+    }
+    .AboutUs div {
+        /* width: 300px; */
+    }
+    .Loremipsum {
+        /* width: 300px; */
+    }
+}
+
+@media (max-width:500px) {
+    .Porta {
+       
+    }
+    .Learnservices {
+       
+    }
+    .bestbeautyclinic {
+       
+        
+    }
+    .AboutUs div {
+        /* width: 400px; */
+    }
+    .Loremipsum {
+        /* width: 400px; */
+    }
+}

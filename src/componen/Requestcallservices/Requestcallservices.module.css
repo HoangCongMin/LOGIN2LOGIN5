@@ -1,0 +1,120 @@
+.Requestcallservices{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 12%;
+    justify-content: space-between;
+    padding-bottom: 7%;
+    flex-wrap: wrap;
+}
+
+
+.Requestcallservicesall h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+padding-bottom: 3%;
+
+color: #091156;
+}
+
+.Requestcallservicesall p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+
+}
+
+.Requestcallservicesall p span{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #091156;
+
+}
+
+
+.Requestcallservicesall{
+    width: 35%;
+}
+
+.Requestcallservicesinput{
+    width: 55%;
+}
+
+.RequestInsert{
+    display: flex;
+}
+
+.Requestcallservicesinput div input{
+    background: #FFFFFF;
+border: 1px solid #D9DDFE;
+border-radius: 20px 0 0 20px;
+width: 83%;
+outline: none;
+padding: 3%;
+}
+
+.Requestcallservicesinput div button{
+    width: 10%;
+    border-radius: 0 20px 20px 0;
+    height: 60px;
+}
+
+.Requestcallservicesinput p{
+    font-family: 'Poppins';
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+text-align: right;
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+padding-top: 1%;
+}
+
+
+.Elements{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
+
+@media (max-width:1270px){
+    .Requestcallservices{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .Requestcallservicesinput{
+        padding-top: 4%;
+        width: 100%;
+    }
+
+    .Requestcallservicesall{
+        width: 100%;
+    }
+}
+
+@media (max-width:400px){
+   .Requestcallservicesinput{
+    display: none;
+   }
+}
+
+
+
